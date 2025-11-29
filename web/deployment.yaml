@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: hiratapqd/my-nginx:latest
+        image: hiratapqd/my-nginx:2d7a76efc3be2c202ca4c2bfe7db7c01bc1a082b
         imagePullPolicy: Always
         ports:
         - containerPort: 80
