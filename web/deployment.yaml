@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: hiratapqd/my-nginx:<GITHUB_SHA>
+        image: hiratapqd/my-nginx:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
